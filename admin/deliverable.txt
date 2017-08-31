@@ -1,0 +1,57 @@
+Server Credentials
+Type	Username	Password
+RDP	Administrator	9oXTk_tn1G
+SQL	sa	9oXTk_tn1G
+Public IP for our server : 78.129.179.42
+
+
+Below are the features:
+Content
+  Add Content
+  Update Content
+  View Content
+
+User Privileges
+  Add User
+  Edit User
+  Delete User
+
+Services
+  Add Service
+  Edit Service
+  Delete Service
+
+View RSS
+Guide Page
+
+*440*161#
+
+title
+body
+startdate
+enddate
+
+mySQL
+78.129.179.42
+root pass; july123
+
+username: festusone
+password: alltheway1
+
+
+username: nollyvenon	
+password: compost1
+http://78.129.179.42/dahfexglobalrss/feedsgen.php
+
+
+
+use dahfexglobalrss;
+
+GRANT ALL PRIVILEGES ON 
+dahfexglobalrss.* 
+TO 
+'festusone'@'%' 
+IDENTIFIED BY 
+'alltheway1';
+
+FLUSH PRIVILEGES;
